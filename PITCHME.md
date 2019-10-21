@@ -1,5 +1,5 @@
-# How to Land a Good Go Job
-## or what to watch out for so your new team member won't break the service
+## How to Land a Good Go Job
+### or what to watch out for so your new team member won't break the service
 
 ---
 
