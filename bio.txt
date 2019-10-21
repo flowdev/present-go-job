@@ -1,0 +1,8 @@
+Ole is a backend engineer since the nineties.
+He has been working for many companies big and small and
+seen many projects fail or succeed.
+Currently he loves to be part of the vibrant startup life in Berlin while
+working on a Go backend for solarisBank.
+In his spare time he is co-organising the Berlin chapter of GDG Golang,
+develops open source software, enjoys time with his family and takes part in
+a broad range of old and new activities from hiking to motor cycling and from meditating to boxing.
