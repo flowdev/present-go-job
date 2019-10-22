@@ -20,9 +20,9 @@
 - Scalability matters |
 - Knowledge about the world held in RAM |
 - Web API |
-- Performance critical stuff often hidden behind interfaces |
-- Many engineers love to work on the performance critical stuff |
-- Enough rooms for junior devs who can implement web APIs |
+- Performance critical stuff behind interfaces |
+- Many engineers love high performance stuff |
+- Enough rooms for juniors who know web APIs |
 - Few companies, small teams |
 
 ---
@@ -69,18 +69,15 @@
 
 ---
 
-## Topics:
+## Authentication & authorization
 
-
----
-
-### Authentication, authorization, user management (5 minutes)
-
-- differences between authentication/authentication
-- sessions (cookie, jwt, other?)
-- authorization strategy (role based)
-- security (should be at least mentioned)
-- trade-offs, pain points, past experiences
+- differences between authentication and authorization |
+- sessions |
+  - cookie (usually provided by middleware or framework) |
+  - JWT: choose 1 good cipher |
+  - JWT can be used with or without server side session |
+- authorization strategy: role based |
+- security is important here |
 
 ---
 
