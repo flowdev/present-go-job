@@ -71,17 +71,17 @@
 
 ## Authentication & authorization
 
-- differences between authentication and authorization |
-- sessions |
-  - cookie (usually provided by middleware or framework) |
-  - JWT: choose 1 good cipher |
+- Difference between authentication and authorization |
+- Sessions |
+  - Cookie (usually provided by middleware or framework) |
   - JWT can be used with or without server side session |
-- authorization strategy: role based |
-- security is important here |
+  - JWT: choose 1 good cipher |
+- Authorization strategy: role based authorization |
+- Security is important here |
 
 ---
 
-### HTTP layer (5 minutes)
+### HTTP layer
 
 - REST vs rpc
 - is HTTP stateless or state-full, and what does that imply
