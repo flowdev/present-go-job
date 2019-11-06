@@ -83,11 +83,12 @@
 
 ### HTTP layer
 
-- REST vs rpc
-- is HTTP stateless or state-full, and what does that imply
-- existing methods, what is an idempotent method and which ones should be
-- caching
-- knowledge about GraphQL?
+- REST vs RPC |
+- HTTP is stateless. What does that imply? |
+- Existing methods: GET, POST, DELETE, PUT, PATCH |
+- Idempotent methods can be done multiple times |
+- Caching |
+- GraphQL |
 
 ---
 
