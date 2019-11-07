@@ -73,13 +73,13 @@
 
 ---
 
-### HTTP layer
+### HTTP (aka "Web")
 
 - HTTP is stateless:
   - simple |
   - scaleable |
-  - caching |
-- RESTful (REpresentational State Transfer) Web services |
+  - allows caching |
+- REST (REpresentational State Transfer) (!) |
 - Interesting HTTP methods: GET, POST, DELETE, PUT, PATCH |
 - Idempotent methods can be done multiple times |
 - Nice to know: GraphQL |
@@ -90,39 +90,49 @@
 
 - Authentication: Who is it? |
 - Authorization: What is allowed? |
-- Role based authorization strategy |
-- Sessions |
-  - Cookie (usually provided by middleware or framework) |
-  - JWT can be used with or without server side session |
-  - JWT: choose 1 good cipher |
+- Role based authorization (!) |
+- Cookie (from middleware or framework) + server side session |
+
+---
+
+## Authentication & authorization 2
+
+- JWT (JSON Web Token) can be used with or without server side session (!) |
+- Choose 1 good cipher for JWT |
+- Nice to know: OAuth 2.0 |
 - Security is important here |
 
 ---
 
-### Database layer (5-10 minutes)
+## Database
 
-- types of databases (RDBM, document-oriented, graph)
-- different use cases ("it depends")
-- schema (design, management)
-- transactions (how do they work, why and when to use them)
-
----
-
-### 3rd party API (5 minutes)
-
-- resilience against down-times
-- error handling
-- call to 3rd party in the context of a transaction
+- Types of databases (RDBMS, document-oriented, key-value, graph) |
+- Different use cases: business data, archiving, caching |
+- RDBMS (Relational Data Base Management System) (!) |
+- Schema: design, evolution |
+- Transactions: how do they work, why and when to use them, locking + lock levels |
 
 ---
 
-### Testing/quality (5-10 minutes)
+## 3rd party API
 
-- test pyramid (layers: unit tests, integration, end-to-end, percentage for each layers: ~70%, 20%, 10%)
-- what about 3rd parties/external dependencies
-- clean code!
+- Resilience against down-times (!) |
+- Error handling |
+- Call to 3rd party in the context of a transaction |
+
+---
+
+## Testing / code quality
+
+- Test pyramid: |
+  - unit tests (~70%) |
+  - integration tests (~20%) |
+  - end-to-end tests (~10%) |
+- Surviving Software Dependencies (!) |
+- Clean code (!) |
 
 
+##
 
 
 ![Rune Stone](assets/runeStone.jpg)
