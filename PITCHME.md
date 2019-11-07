@@ -106,25 +106,26 @@
 
 ## Database
 
-- Types of databases (RDBMS, document-oriented, key-value, graph) |
-- Different use cases: business data, archiving, caching |
-- RDBMS (Relational Data Base Management System) (!) |
-- Schema: design, evolution |
-- Transactions: how do they work, why and when to use them, locking + lock levels |
+- Types: RDBMS, document-oriented, key-value, graph |
+- Use cases: business data, archiving, caching, ... |
+- RDBMS (Relational DataBase Management System) (!) |
+- DB schema: design, evolution |
+- DB transactions: how do they work, why and when to use them, locking & lock levels |
+- How to prevent SQL injection (!) |
 
 ---
 
 ## 3rd party API
 
-- Resilience against down-times (!) |
 - Error handling |
+- Resilience against down-times (!) |
 - Call to 3rd party in the context of a transaction |
 
 ---
 
 ## Testing / code quality
 
-- Test pyramid: |
+- Test pyramid (!): |
   - unit tests (~70%) |
   - integration tests (~20%) |
   - end-to-end tests (~10%) |
@@ -132,7 +133,7 @@
 - Clean code (!) |
 
 
-##
+## REST...
 
 
 ![Rune Stone](assets/runeStone.jpg)
