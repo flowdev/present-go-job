@@ -81,7 +81,7 @@
   - allows caching |
 - REST (REpresentational State Transfer) (!) |
 - Interesting HTTP methods: GET, POST, DELETE, PUT, PATCH |
-- Idempotent methods can be done multiple times |
+- Idempotency: request can come multiple times |
 - Nice to know: GraphQL |
 
 ---
