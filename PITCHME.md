@@ -64,31 +64,38 @@
 
 ## Job market take away
 
-- By far most Go jobs are about web APIs |
+- By far most Go jobs are about Web APIs |
 - Growing with more adoption of Go |
 
 ---
 
-## Authentication & authorization
-
-- Difference between authentication and authorization |
-- Sessions |
-  - Cookie (usually provided by middleware or framework) |
-  - JWT can be used with or without server side session |
-  - JWT: choose 1 good cipher |
-- Authorization strategy: role based authorization |
-- Security is important here |
+## What do I need to know for Web APIs???
 
 ---
 
 ### HTTP layer
 
-- REST vs RPC |
-- HTTP is stateless. What does that imply? |
-- Existing methods: GET, POST, DELETE, PUT, PATCH |
+- HTTP is stateless:
+  - simple |
+  - scaleable |
+  - caching |
+- RESTful (REpresentational State Transfer) Web services |
+- Interesting HTTP methods: GET, POST, DELETE, PUT, PATCH |
 - Idempotent methods can be done multiple times |
-- Caching |
-- GraphQL |
+- Nice to know: GraphQL |
+
+---
+
+## Authentication & authorization
+
+- Authentication: Who is it? |
+- Authorization: What is allowed? |
+- Role based authorization strategy |
+- Sessions |
+  - Cookie (usually provided by middleware or framework) |
+  - JWT can be used with or without server side session |
+  - JWT: choose 1 good cipher |
+- Security is important here |
 
 ---
 
