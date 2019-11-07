@@ -22,8 +22,8 @@
 - Web API |
 - Performance critical stuff behind interfaces |
 - Many engineers love high performance stuff |
-- Enough rooms for juniors who know web APIs |
-- Few companies, small teams |
+- Enough rooms for juniors |
+- Few, small companies |
 
 ---
 
@@ -33,7 +33,7 @@
 - Low level programming |
 - Low latency services |
 - Highly skilled engineers |
-- Few companies, small teams |
+- Few, small companies |
 
 ---
 
@@ -41,8 +41,8 @@
 
 - Mistakes can cost a lot of money |
 - Web APIs |
-- Rooms for junior devs who can implement web APIs and test carefully |
-- Quite some companies, teams from small to medium |
+- Rooms for junior devs who test carefully |
+- Quite some companies from small to medium |
 
 ---
 
@@ -50,15 +50,15 @@
 
 - Distributed services |
 - Highly skilled engineers |
-- Few companies, small teams |
+- Few, small companies |
 
 ---
 
 ## Diverse companies building services
 
 - Web APIs |
-- Lots of room for junior devs who can implement web APIs |
-- Many companies, teams from small to huge |
+- Lots of room for junior devs |
+- Many companies from small to huge |
 
 ---
 
