@@ -73,7 +73,7 @@
 
 ---
 
-### HTTP (aka "Web")
+## HTTP (aka "Web")
 
 - HTTP is stateless:
   - simple |
@@ -98,7 +98,7 @@
 ## Authentication & authorization 2
 
 - JWT (JSON Web Token) can be used with or without server side session (!) |
-- Choose 1 good cipher for JWT |
+- Offer only 1 good cipher for JWT |
 - Nice to know: OAuth 2.0 |
 - Security is important here |
 
@@ -106,7 +106,7 @@
 
 ## Database
 
-- Types: RDBMS, document-oriented, key-value, graph |
+- Types: relational, document-oriented, key-value, graph |
 - Use cases: business data, archiving, caching, ... |
 - RDBMS (Relational DataBase Management System) (!) |
 - DB schema: design, evolution |
@@ -132,6 +132,7 @@
 - Surviving Software Dependencies (!) |
 - Clean code (!) |
 
+---
 
 ## REST...
 
