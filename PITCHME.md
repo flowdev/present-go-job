@@ -113,13 +113,10 @@ Note:
 
 ## HTTP (aka "Web")
 
-- HTTP is stateless:
-  - simple |
-  - scaleable |
-  - allows caching |
+- HTTP is stateless (!) |
 - REST (REpresentational State Transfer) (!) |
 - Interesting HTTP methods: GET, POST, DELETE, PUT, PATCH |
-- Idempotency: request can come multiple times |
+- Request can come multiple times: Idempotent (!) |
 - Nice to know: GraphQL |
 
 Note:
@@ -171,17 +168,16 @@ Note:
 
 Note:
 - No direct influence on third party!
+- Can stop the whole system
 
 ---
 
 ## Testing / code quality
 
 - Test pyramid (!): |
-  - unit tests (~70%) |
-  - integration tests (~20%) |
-  - end-to-end tests (~10%) |
 - Surviving Software Dependencies (!) |
 - Clean code (!) |
 
 Note:
 - Maintainability
+- Test pyramid: unit tests >> integration tests > end-to-end tests
